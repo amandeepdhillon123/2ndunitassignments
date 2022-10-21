@@ -1,0 +1,36 @@
+#container{
+    border: 1px solid red;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+#subcontainer{
+    /* border: 1px solid white; */
+    margin: auto;
+    height: 50px;
+    width: 90%;
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+#sub{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+   
+}
+p{
+    color: aliceblue;
+}
+select{
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  width: 18px;
+
+}
+option{
+    background-color: green;
+ 
+    font-size: 50px;
+}

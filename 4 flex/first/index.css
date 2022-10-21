@@ -1,0 +1,21 @@
+#flex{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+#flex>div{
+    /* border: 1px solid green; */
+    height: 150px;
+    width: 150px;
+   background-color: teal;
+ margin-left: 20px;
+ border-radius: 10px;
+}
+.expand{
+    flex-grow: 1;
+}
