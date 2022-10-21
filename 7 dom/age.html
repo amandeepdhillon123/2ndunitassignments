@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="year" placeholder="year">
+  
+    <button onclick="checkAge()">Check</button>
+    <h1 id="head"></h1>
+    
+</body>
+</html>
+<script>
+   
+
+    // console.log(typeof age)
+    function checkAge(){
+        let input=document.getElementById("year");
+        //   console.log(input.value)
+
+    let current_year =2022;
+    // console.log(typeof current_year);
+    let age= current_year-input.value;
+
+       
+        // age=document.getElementById("age").value
+    // age=parseInt(age)
+    console.log(age)
+        if( age >= 18)
+        {
+            document.getElementById("head").innerText="eligible for driving licence"+" " + age;
+        }
+        else{
+            document.getElementById("head").innerText="not eligible for driving licence"+" " +age;
+        }
+    }
+</script>
