@@ -1,0 +1,21 @@
+#container{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 5px;
+
+}
+#container div {
+    width: 90%;
+    height: 80px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+ div >img{
+    height: 70px;
+ }
