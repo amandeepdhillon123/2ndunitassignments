@@ -1,0 +1,43 @@
+#container{
+    display: flex;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10px;
+}
+p{
+    color: red;
+}
+#box2{
+  background-color: black;
+  height: 300px;
+  width: 50%;
+  margin: auto;
+  padding-left: 50px;
+  box-sizing: border-box;
+  padding-top: 20px;
+ 
+}
+h4{
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+.para1{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 5px;
+}
+.para{
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.para2{
+    color: aliceblue;
+}
